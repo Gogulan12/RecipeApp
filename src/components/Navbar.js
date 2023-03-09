@@ -11,7 +11,7 @@ export default function Navbar() {
     <div className="navbar">
       <nav>
         <Link to="/" className="brand">
-          <h1>Cooking Recipies</h1>
+          <h1>Cooking Recipes</h1>
         </Link>
         <Searchbar />
         <Link to="/create">Create Recipies</Link>
