@@ -4,6 +4,8 @@ import "./Navbar.css";
 
 import React from "react";
 
+import Searchbar from "./Searchbar";
+
 export default function Navbar() {
   return (
     <div className="navbar">
@@ -11,6 +13,7 @@ export default function Navbar() {
         <Link to="/" className="brand">
           <h1>Cooking Recipies</h1>
         </Link>
+        <Searchbar />
         <Link to="/create">Create Recipies</Link>
       </nav>
     </div>
